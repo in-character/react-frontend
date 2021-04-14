@@ -5,8 +5,10 @@ const initialLoginForm = {
 }
 
 const initialState = {
-  id: null,
-  username: null,
+  user: {
+    id: null,
+    username: null,
+  },
   signup: false,
   loginForm: initialLoginForm
 }
